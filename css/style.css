@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.limitar-secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.logo-topo{
+    position: relative;
+    margin: 35px auto;
+}
+
+.logo-topo img{
+    width: 80px;
+}
+
+.logo-topo .topo-text{
+    position: absolute;
+    top: 0px;
+    left: 90px;
+}
+
+.logo-topo .topo-text p{
+    font-weight: 400;
+    color: #2f86d6;
+    font-size: 18px;
+}
+
+.logo-topo .topo-links {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+}
+
+.logo-topo .topo-links a{
+    text-decoration: none;
+    margin: 10px;
+    color: #233032;
+    font-weight: 600;
+}
+
+/* secao principal*/
+.box-principal{
+    background-color: #2f86d6;
+    padding: 180px 0px;
+}
+
+.secao-principal{
+    position: relative;
+}
+
+.secao-principal .text{
+    max-width: 500px;
+    color: #fff;
+    position: relative;
+}
+
+.secao-principal .banner{
+    position: absolute;
+    right: 0px;
+    top: -80px;
+}
+
+
+.secao-principal .text p{
+    margin: 30px 0px;
+    line-height: 22px;
+}
+
+/* primeiro anuncio */
+.box-primeiro-anuncio{
+    background-color: #233032;
+    padding: 50px 0px;
+}
+
+.anuncio1 {
+    position: relative;
+    color: #fff;
+}
+
+.anuncio1 .btn-foguete1{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #2f86d6;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.anuncio1 .btn-foguete1 a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.anuncio1 .btn-foguete1 img{
+    padding-right: 5px;
+}
+
+/* secao informacoes */
+.box-confi{
+    position: relative;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.box-confi h2{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.box-confi h2 span{
+    color:#2f86d6;
+}
+
+.box-icones{
+    position: relative;
+    margin: 60px 0px;
+}
+
+.box-confi .box-icones div{
+    width: 33%;
+}
+
+.box-confi .box-icones img{
+    width: 100px;
+}
+
+.box-confi .box-icones .icone2{
+    position: absolute;
+    top: 0px;
+    left: 343px;
+}
+
+.icone3{
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+
+/* secao table */
+.secao-table{
+    padding: 60px 0px;
+    text-align: center;
+    background-color: #f1f3f7;
+    padding-bottom: 120px;
+}
+
+.box-table h2{
+    margin: 40px auto;
+}
+
+.box-table h2 span{
+    color: #2f86d6;
+}
+
+.box-table table{
+    border-radius: 5px;
+    background-color: #f1f3f7;
+    margin: 0px auto;
+    box-shadow: 10px 10px 35px 20px #2f86d6;
+}
+
+.box-table table thead th{
+    padding: 15px 45px;
+    background-color: #fff;
+    border-radius: 0px;
+}
+
+.box-table table thead th img{
+    width: 100px;
+    padding: 10px 0px;
+}
+
+.box-table table thead th p{
+    font-size: 12px;
+    color:#a89f9f; 
+}
+
+.box-table table tbody td{
+    padding: 20px;
+    background-color: #f6f6f6;
+}
+
+.box-table table tbody .cor-dife{
+    background-color: #fff;
+}
+
+/*secao segundo anuncio */
+.secao-segundo-anuncio{
+    background-color: #2f86d6;
+    padding: 50px 0px;
+}
+
+.box-segundo-anuncio{
+    position: relative;
+}
+
+.box-segundo-anuncio h2{
+    color: #fff;
+    width: 500px
+}
+
+.box-segundo-anuncio .btn-foguete2{
+    position: absolute;
+    top: 40%;
+    right: 0px;
+}
+
+.box-segundo-anuncio .btn-foguete2 img{
+    padding-right: 5px;
+}
+
+.box-segundo-anuncio .btn-foguete2 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    background-color: #233032;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+/* secao rodape*/
+.secao-rodape{
+    padding: 60px 0px;
+}
+
+.rodape{
+    width: 300px;
+    position: relative;
+}
+
+.rodape .text{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+.logo-rodape img{
+    width: 80px;
+}
+
+.logo-rodape{
+    margin: 30px 0px 60px;
+}
+
+.rodape .contatos{
+ text-align: center;
+}
+
+.rodape .contatos p{
+    line-height: 32px;
+    font-weight: 600;
+}
+
+/* secao copyright */
+
+.secao-copyright{
+    background-color: #f6f6f6;
+    padding: 25px;
+    text-align: center;
+}
+
+.secao-copyright p{
+    font-weight: 600;
+}
+
+.secao-copyright p span{
+    color: #2f86d6;
+}
